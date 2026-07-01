@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6b0015/T/v1
+canonical_location: https://kanripo.org/bkk/KR6b0015/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 妙色王因緣經
+  identifiers:
+    krp: KR6b0015
+    cbeta: T03n0163
+    cbeta_old_id: T03n0163
+    authorityid: CA0002248
+    json_key: T0163
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0163.xml
+    old_id: T03n0163
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0015_000-T.yaml, hash: 'sha256:0d1a64c7fd8265972fe26867023b6c05d070b6e8e999b79d549cf89058c59129'}
+  - {seq: 1, filename: KR6b0015_001-T.yaml, hash: 'sha256:5703e15e1f559d918401a38d02a171697e2cccb8253493e4be6c6fee1575d168'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6b0015_000-T.markers.yaml, hash: 'sha256:b3ab94af94fb541c8a4e7b8ed864ddb4ecea0edc81c468294eb6974bc8561449'}
+  - {seq: 1, role: markers, filename: assets/KR6b0015_001-T.markers.yaml, hash: 'sha256:d487e19a3bf1b85b2575a31c54d894894eb43d6ff8c576c9893ffb21caa262b9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0015_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1317
+  label: 佛說妙色王因緣經
+  type: juan
+  level: 1
+hash: sha256:214704265ce57662911cf4c649b2bb84fa892bab398cda14424301bd28422017
