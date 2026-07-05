@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0015_000.yaml, hash: 'sha256:0d1a64c7fd8265972fe26867023b6c05d070b6e8e999b79d549cf89058c59129'}
-  - {seq: 1, filename: KR6b0015_001.yaml, hash: 'sha256:ed1124773376c9bcf2b179d7987b27a182dd15a3d1d4eb1a128d982298b4480f'}
+  - {seq: 1, filename: KR6b0015_001.yaml, hash: 'sha256:5703e15e1f559d918401a38d02a171697e2cccb8253493e4be6c6fee1575d168'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6b0015_001.markers.yaml, hash: 'sha256:c8f8761a62223e79266f2e752f2be89abc68b4f73d688a0ea5c84398183e2e82'}
+  - {seq: 0, role: markers, filename: assets/KR6b0015_000.markers.yaml, hash: 'sha256:508738780b00bdc15573e82db72cd69ea1967418ad104719cd004a46a366aa61'}
+  - {seq: 1, role: markers, filename: assets/KR6b0015_001.markers.yaml, hash: 'sha256:44423a5159c792b67badbd161203274c83f05a8032abb2c61a6d51e54f3083f9'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說妙色王因緣經
   type: juan
   level: 1
-hash: sha256:2aa66b391c3fc77f068183446d7a0d70e523afbf78b53ca149806ea82a34cf87
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:d87f1818e02b5c8470ef7d5e2bb1185b74e99d4a47185aa8eea1e7649da57226
