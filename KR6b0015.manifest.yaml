@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6b0015/v1
 canonical_location: https://kanripo.org/bkk/KR6b0015/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 妙色王因緣經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0015_000.yaml, hash: 'sha256:0d1a64c7fd8265972fe26867023b6c05d070b6e8e999b79d549cf89058c59129'}
-  - {seq: 1, filename: KR6b0015_001.yaml, hash: 'sha256:5703e15e1f559d918401a38d02a171697e2cccb8253493e4be6c6fee1575d168'}
+  - {seq: 1, filename: KR6b0015_001.yaml, hash: 'sha256:db99f6f8cc8b5087313f58d5bde418ede35378a80500ff2be39c31431cd0b376'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6b0015_000.markers.yaml, hash: 'sha256:508738780b00bdc15573e82db72cd69ea1967418ad104719cd004a46a366aa61'}
-  - {seq: 1, role: markers, filename: assets/KR6b0015_001.markers.yaml, hash: 'sha256:44423a5159c792b67badbd161203274c83f05a8032abb2c61a6d51e54f3083f9'}
+  - {seq: 1, role: markers, filename: assets/KR6b0015_001.markers.yaml, hash: 'sha256:bdd4bf0ba2765afdc7de87ee1ac789ecc731e4f54959474f473f6934a81ba0bb'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說妙色王因緣經
   type: juan
   level: 1
-hash: sha256:d87f1818e02b5c8470ef7d5e2bb1185b74e99d4a47185aa8eea1e7649da57226
+hash: sha256:340da6c3ef386b63db400e278f7494f17cf0b4dace74e65eaa1904bac701aae6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
